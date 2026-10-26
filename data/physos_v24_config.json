@@ -1,0 +1,25 @@
+{
+  "version": "PHYSOS v2.4",
+  "data_source": "SIMULATED",
+  "samples_per_trial": 600,
+  "event_start": 300,
+  "event_end_exclusive": 360,
+  "slope_window": 20,
+  "relationship_window": 40,
+  "calibration_trials_per_scenario": 100,
+  "training_trials_per_scenario": 60,
+  "threshold_percentile": 95.0,
+  "test_trials_per_scenario": 200,
+  "test_seed_start": 990000,
+  "methods": [
+    "baseline",
+    "relationship",
+    "isolation_forest"
+  ],
+  "thresholds": {
+    "baseline": 1652.7277273258148,
+    "relationship": 2321593.5408223947,
+    "isolation_forest": 0.6828977803016225
+  },
+  "note": "All data are synthetic. Results are not evidence of real-world equipment-failure prediction."
+}

@@ -1,0 +1,21 @@
+{
+    "experiment": "PHYSOS v2.2",
+    "calibration_trials": 100,
+    "test_trials_per_scenario": 200,
+    "calibration_seed_start": 30000,
+    "test_seed_start": 50000,
+    "window": 20,
+    "persistence_window": 3,
+    "persistence_required": 2,
+    "false_alarm_budget": 0.01,
+    "event_start": 300,
+    "event_end": 360,
+    "data_source": "SIMULATED",
+    "thresholds": {
+        "temperature_level": 0.5978835854511431,
+        "frequency_level": 27.867535729026265,
+        "temperature_slope": 0.022233470226657927,
+        "frequency_slope": 1.095847994594062,
+        "joint_slope": 0.9829736226634076
+    }
+}

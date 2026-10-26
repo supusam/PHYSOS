@@ -1,0 +1,13 @@
+scenario,detector,TP,FP,FN,TN,precision,recall,false_positive_rate
+normal,CPU threshold,0,0,0,600,0.0,0.0,0.0
+normal,Multi-signal z-score,0,0,0,600,0.0,0.0,0.0
+normal,Temperature/frequency drift,0,0,0,600,0.0,0.0,0.0
+cpu_only_spike,CPU threshold,7,0,53,540,1.0,0.117,0.0
+cpu_only_spike,Multi-signal z-score,1,0,59,540,1.0,0.017,0.0
+cpu_only_spike,Temperature/frequency drift,0,0,60,540,0.0,0.0,0.0
+gradual_physical_drift,CPU threshold,0,0,60,540,0.0,0.0,0.0
+gradual_physical_drift,Multi-signal z-score,33,0,27,540,1.0,0.55,0.0
+gradual_physical_drift,Temperature/frequency drift,41,2,19,538,0.953,0.683,0.004
+multisignal_event,CPU threshold,0,0,60,540,0.0,0.0,0.0
+multisignal_event,Multi-signal z-score,59,0,1,540,1.0,0.983,0.0
+multisignal_event,Temperature/frequency drift,47,0,13,540,1.0,0.783,0.0

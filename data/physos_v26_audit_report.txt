@@ -1,0 +1,47 @@
+PHYSOS v2.6 — LEAKAGE AUDIT AND FAILURE ANALYSIS
+========================================================================
+Input: C:\Users\saman\PHYSOS_github_sync\data\physos_v24_test_trials.csv
+Rows: 6000
+Scenarios: 10
+Methods: 3
+Source: SIMULATED
+Duplicate scenario/method/trial rows: 0
+Precision consistency mismatches: 0
+Recall consistency mismatches: 0
+
+IMPORTANT:
+- This is a metadata and result-consistency audit.
+- It cannot prove the experiment is free of data leakage.
+- Verify split logic in the actual training and calibration code.
+- False-alarm rates depend on the original script's definitions.
+- All results are simulated, not real-hardware measurements.
+
+AUTOMATIC REVIEW FLAGS:
+- LOW DETECTION: frequency_only / isolation_forest = 21.5%
+- LOW DETECTION: frequency_only / relationship = 0.0%
+- HIGH FALSE-ALARM RATE: hidden_relationship / baseline = 98.5%
+- DETECTION/FALSE-ALARM TRADE-OFF: hidden_relationship / baseline
+- LOW DETECTION: hidden_relationship / relationship = 0.0%
+- LOW DETECTION: moderate_drift / baseline = 25.5%
+- HIGH FALSE-ALARM RATE: noisy_gradual_drift / baseline = 21.0%
+- DETECTION/FALSE-ALARM TRADE-OFF: noisy_gradual_drift / baseline
+- HIGH FALSE-ALARM RATE: noisy_gradual_drift / isolation_forest = 96.5%
+- DETECTION/FALSE-ALARM TRADE-OFF: noisy_gradual_drift / isolation_forest
+- HIGH FALSE-ALARM RATE: noisy_gradual_drift / relationship = 16.5%
+- DETECTION/FALSE-ALARM TRADE-OFF: noisy_gradual_drift / relationship
+- HIGH FALSE-ALARM RATE: noisy_normal / baseline = 23.0%
+- LOW DETECTION: noisy_normal / baseline = 3.0%
+- HIGH FALSE-ALARM RATE: noisy_normal / isolation_forest = 31.0%
+- LOW DETECTION: noisy_normal / isolation_forest = 5.0%
+- HIGH FALSE-ALARM RATE: noisy_normal / relationship = 11.5%
+- LOW DETECTION: noisy_normal / relationship = 2.0%
+- LOW DETECTION: normal / baseline = 0.0%
+- LOW DETECTION: normal / isolation_forest = 0.0%
+- LOW DETECTION: normal / relationship = 0.0%
+- LOW DETECTION: temperature_only / baseline = 0.0%
+- LOW DETECTION: temperature_only / isolation_forest = 7.0%
+- LOW DETECTION: temperature_only / relationship = 0.5%
+- LOW DETECTION: weak_drift / baseline = 0.0%
+
+Detailed scenario/method summary is in:
+C:\Users\saman\PHYSOS_github_sync\data\physos_v26_failure_analysis.csv

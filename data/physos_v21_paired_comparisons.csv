@@ -1,0 +1,36 @@
+scenario,comparison,paired_trials,joint_event_rate,baseline_event_rate,paired_detection_rate_difference,bootstrap95_low,bootstrap95_high,interpretation,source
+frequency_only,joint_slope_vs_temperature_level,100,0.0,0.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+frequency_only,joint_slope_vs_frequency_level,100,0.0,1.0,-1.0,-1.0,-1.0,Joint detector lower,SIMULATED
+frequency_only,joint_slope_vs_temperature_slope,100,0.0,0.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+frequency_only,joint_slope_vs_frequency_slope,100,0.0,1.0,-1.0,-1.0,-1.0,Joint detector lower,SIMULATED
+frequency_only,joint_slope_vs_joint_slope_persistent_2of3,100,0.0,0.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+moderate_drift,joint_slope_vs_temperature_level,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+moderate_drift,joint_slope_vs_frequency_level,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+moderate_drift,joint_slope_vs_temperature_slope,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+moderate_drift,joint_slope_vs_frequency_slope,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+moderate_drift,joint_slope_vs_joint_slope_persistent_2of3,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+noisy_gradual_drift,joint_slope_vs_temperature_level,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+noisy_gradual_drift,joint_slope_vs_frequency_level,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+noisy_gradual_drift,joint_slope_vs_temperature_slope,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+noisy_gradual_drift,joint_slope_vs_frequency_slope,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+noisy_gradual_drift,joint_slope_vs_joint_slope_persistent_2of3,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+strong_drift,joint_slope_vs_temperature_level,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+strong_drift,joint_slope_vs_frequency_level,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+strong_drift,joint_slope_vs_temperature_slope,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+strong_drift,joint_slope_vs_frequency_slope,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+strong_drift,joint_slope_vs_joint_slope_persistent_2of3,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+sudden_change,joint_slope_vs_temperature_level,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+sudden_change,joint_slope_vs_frequency_level,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+sudden_change,joint_slope_vs_temperature_slope,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+sudden_change,joint_slope_vs_frequency_slope,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+sudden_change,joint_slope_vs_joint_slope_persistent_2of3,100,1.0,1.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+temperature_only,joint_slope_vs_temperature_level,100,0.0,1.0,-1.0,-1.0,-1.0,Joint detector lower,SIMULATED
+temperature_only,joint_slope_vs_frequency_level,100,0.0,0.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+temperature_only,joint_slope_vs_temperature_slope,100,0.0,1.0,-1.0,-1.0,-1.0,Joint detector lower,SIMULATED
+temperature_only,joint_slope_vs_frequency_slope,100,0.0,0.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+temperature_only,joint_slope_vs_joint_slope_persistent_2of3,100,0.0,0.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+weak_drift,joint_slope_vs_temperature_level,100,0.0,1.0,-1.0,-1.0,-1.0,Joint detector lower,SIMULATED
+weak_drift,joint_slope_vs_frequency_level,100,0.0,0.0,0.0,0.0,0.0,Difference uncertain,SIMULATED
+weak_drift,joint_slope_vs_temperature_slope,100,0.0,0.82,-0.82,-0.89,-0.74,Joint detector lower,SIMULATED
+weak_drift,joint_slope_vs_frequency_slope,100,0.0,0.02,-0.02,-0.05,0.0,Difference uncertain,SIMULATED
+weak_drift,joint_slope_vs_joint_slope_persistent_2of3,100,0.0,0.0,0.0,0.0,0.0,Difference uncertain,SIMULATED

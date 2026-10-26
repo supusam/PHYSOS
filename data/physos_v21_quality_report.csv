@@ -1,0 +1,7 @@
+check,passed,details
+required_columns_present,True,All required columns found
+all_rows_marked_simulated,True,Unique sources: ['SIMULATED']
+no_duplicate_trial_method_rows,True,Each scenario/trial/method should occur once
+expected_methods_present,True,"Methods found: ['frequency_level', 'frequency_slope', 'joint_slope', 'joint_slope_persistent_2of3', 'temperature_level', 'temperature_slope']"
+100_trials_per_scenario,True,"{'frequency_only': 100, 'moderate_drift': 100, 'noisy_gradual_drift': 100, 'noisy_normal': 100, 'normal': 100, 'strong_drift': 100, 'sudden_change': 100, 'temperature_only': 100, 'weak_drift': 100}"
+all_methods_on_each_trial,True,Expected 6 methods per trial

@@ -1,0 +1,361 @@
+trial,scenario,detector,TP,FP,FN,TN,precision,recall,FPR,event_detected
+1,normal,CPU threshold,0,0,0,600,,,0.0,
+1,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+1,normal,Temporal paired trend,0,1,0,599,0.0,,0.0016666666666666668,
+1,cpu_only_spike,CPU threshold,51,0,9,540,1.0,0.85,0.0,True
+1,cpu_only_spike,Multi-signal z-score,2,0,58,540,1.0,0.03333333333333333,0.0,True
+1,cpu_only_spike,Temporal paired trend,0,1,60,539,0.0,0.0,0.001851851851851852,False
+1,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+1,gradual_physical_drift,Multi-signal z-score,35,0,25,540,1.0,0.5833333333333334,0.0,True
+1,gradual_physical_drift,Temporal paired trend,43,0,17,540,1.0,0.7166666666666667,0.0,True
+1,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+1,multisignal_event,Multi-signal z-score,58,0,2,540,1.0,0.9666666666666667,0.0,True
+1,multisignal_event,Temporal paired trend,9,0,51,540,1.0,0.15,0.0,True
+2,normal,CPU threshold,0,0,0,600,,,0.0,
+2,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+2,normal,Temporal paired trend,0,1,0,599,0.0,,0.0016666666666666668,
+2,cpu_only_spike,CPU threshold,41,0,19,540,1.0,0.6833333333333333,0.0,True
+2,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+2,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+2,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+2,gradual_physical_drift,Multi-signal z-score,21,0,39,540,1.0,0.35,0.0,True
+2,gradual_physical_drift,Temporal paired trend,11,0,49,540,1.0,0.18333333333333332,0.0,True
+2,multisignal_event,CPU threshold,1,0,59,540,1.0,0.016666666666666666,0.0,True
+2,multisignal_event,Multi-signal z-score,59,0,1,540,1.0,0.9833333333333333,0.0,True
+2,multisignal_event,Temporal paired trend,14,0,46,540,1.0,0.23333333333333334,0.0,True
+3,normal,CPU threshold,0,0,0,600,,,0.0,
+3,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+3,normal,Temporal paired trend,0,1,0,599,0.0,,0.0016666666666666668,
+3,cpu_only_spike,CPU threshold,5,0,55,540,1.0,0.08333333333333333,0.0,True
+3,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+3,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+3,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+3,gradual_physical_drift,Multi-signal z-score,30,0,30,540,1.0,0.5,0.0,True
+3,gradual_physical_drift,Temporal paired trend,31,1,29,539,0.96875,0.5166666666666667,0.001851851851851852,True
+3,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+3,multisignal_event,Multi-signal z-score,57,0,3,540,1.0,0.95,0.0,True
+3,multisignal_event,Temporal paired trend,9,0,51,540,1.0,0.15,0.0,True
+4,normal,CPU threshold,0,0,0,600,,,0.0,
+4,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+4,normal,Temporal paired trend,0,0,0,600,,,0.0,
+4,cpu_only_spike,CPU threshold,0,0,60,540,,0.0,0.0,False
+4,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+4,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+4,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+4,gradual_physical_drift,Multi-signal z-score,9,0,51,540,1.0,0.15,0.0,True
+4,gradual_physical_drift,Temporal paired trend,21,0,39,540,1.0,0.35,0.0,True
+4,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+4,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+4,multisignal_event,Temporal paired trend,14,0,46,540,1.0,0.23333333333333334,0.0,True
+5,normal,CPU threshold,0,0,0,600,,,0.0,
+5,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+5,normal,Temporal paired trend,0,1,0,599,0.0,,0.0016666666666666668,
+5,cpu_only_spike,CPU threshold,13,0,47,540,1.0,0.21666666666666667,0.0,True
+5,cpu_only_spike,Multi-signal z-score,1,0,59,540,1.0,0.016666666666666666,0.0,True
+5,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+5,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+5,gradual_physical_drift,Multi-signal z-score,20,0,40,540,1.0,0.3333333333333333,0.0,True
+5,gradual_physical_drift,Temporal paired trend,9,2,51,538,0.8181818181818182,0.15,0.003703703703703704,True
+5,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+5,multisignal_event,Multi-signal z-score,59,0,1,540,1.0,0.9833333333333333,0.0,True
+5,multisignal_event,Temporal paired trend,12,0,48,540,1.0,0.2,0.0,True
+6,normal,CPU threshold,0,0,0,600,,,0.0,
+6,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+6,normal,Temporal paired trend,0,0,0,600,,,0.0,
+6,cpu_only_spike,CPU threshold,27,0,33,540,1.0,0.45,0.0,True
+6,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+6,cpu_only_spike,Temporal paired trend,0,1,60,539,0.0,0.0,0.001851851851851852,False
+6,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+6,gradual_physical_drift,Multi-signal z-score,38,1,22,539,0.9743589743589743,0.6333333333333333,0.001851851851851852,True
+6,gradual_physical_drift,Temporal paired trend,42,2,18,538,0.9545454545454546,0.7,0.003703703703703704,True
+6,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+6,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+6,multisignal_event,Temporal paired trend,10,0,50,540,1.0,0.16666666666666666,0.0,True
+7,normal,CPU threshold,0,0,0,600,,,0.0,
+7,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+7,normal,Temporal paired trend,0,2,0,598,0.0,,0.0033333333333333335,
+7,cpu_only_spike,CPU threshold,4,0,56,540,1.0,0.06666666666666667,0.0,True
+7,cpu_only_spike,Multi-signal z-score,1,0,59,540,1.0,0.016666666666666666,0.0,True
+7,cpu_only_spike,Temporal paired trend,0,1,60,539,0.0,0.0,0.001851851851851852,False
+7,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+7,gradual_physical_drift,Multi-signal z-score,24,0,36,540,1.0,0.4,0.0,True
+7,gradual_physical_drift,Temporal paired trend,32,0,28,540,1.0,0.5333333333333333,0.0,True
+7,multisignal_event,CPU threshold,1,0,59,540,1.0,0.016666666666666666,0.0,True
+7,multisignal_event,Multi-signal z-score,59,0,1,540,1.0,0.9833333333333333,0.0,True
+7,multisignal_event,Temporal paired trend,6,4,54,536,0.6,0.1,0.007407407407407408,True
+8,normal,CPU threshold,0,0,0,600,,,0.0,
+8,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+8,normal,Temporal paired trend,0,0,0,600,,,0.0,
+8,cpu_only_spike,CPU threshold,15,0,45,540,1.0,0.25,0.0,True
+8,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+8,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+8,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+8,gradual_physical_drift,Multi-signal z-score,40,0,20,540,1.0,0.6666666666666666,0.0,True
+8,gradual_physical_drift,Temporal paired trend,42,0,18,540,1.0,0.7,0.0,True
+8,multisignal_event,CPU threshold,1,0,59,540,1.0,0.016666666666666666,0.0,True
+8,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+8,multisignal_event,Temporal paired trend,15,0,45,540,1.0,0.25,0.0,True
+9,normal,CPU threshold,0,0,0,600,,,0.0,
+9,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+9,normal,Temporal paired trend,0,0,0,600,,,0.0,
+9,cpu_only_spike,CPU threshold,0,0,60,540,,0.0,0.0,False
+9,cpu_only_spike,Multi-signal z-score,1,0,59,540,1.0,0.016666666666666666,0.0,True
+9,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+9,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+9,gradual_physical_drift,Multi-signal z-score,39,0,21,540,1.0,0.65,0.0,True
+9,gradual_physical_drift,Temporal paired trend,40,2,20,538,0.9523809523809523,0.6666666666666666,0.003703703703703704,True
+9,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+9,multisignal_event,Multi-signal z-score,59,0,1,540,1.0,0.9833333333333333,0.0,True
+9,multisignal_event,Temporal paired trend,8,0,52,540,1.0,0.13333333333333333,0.0,True
+10,normal,CPU threshold,0,0,0,600,,,0.0,
+10,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+10,normal,Temporal paired trend,0,0,0,600,,,0.0,
+10,cpu_only_spike,CPU threshold,36,0,24,540,1.0,0.6,0.0,True
+10,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+10,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+10,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+10,gradual_physical_drift,Multi-signal z-score,29,0,31,540,1.0,0.48333333333333334,0.0,True
+10,gradual_physical_drift,Temporal paired trend,28,0,32,540,1.0,0.4666666666666667,0.0,True
+10,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+10,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+10,multisignal_event,Temporal paired trend,9,0,51,540,1.0,0.15,0.0,True
+11,normal,CPU threshold,0,0,0,600,,,0.0,
+11,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+11,normal,Temporal paired trend,0,0,0,600,,,0.0,
+11,cpu_only_spike,CPU threshold,0,0,60,540,,0.0,0.0,False
+11,cpu_only_spike,Multi-signal z-score,1,1,59,539,0.5,0.016666666666666666,0.001851851851851852,True
+11,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+11,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+11,gradual_physical_drift,Multi-signal z-score,22,0,38,540,1.0,0.36666666666666664,0.0,True
+11,gradual_physical_drift,Temporal paired trend,17,0,43,540,1.0,0.2833333333333333,0.0,True
+11,multisignal_event,CPU threshold,1,0,59,540,1.0,0.016666666666666666,0.0,True
+11,multisignal_event,Multi-signal z-score,58,0,2,540,1.0,0.9666666666666667,0.0,True
+11,multisignal_event,Temporal paired trend,10,0,50,540,1.0,0.16666666666666666,0.0,True
+12,normal,CPU threshold,0,0,0,600,,,0.0,
+12,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+12,normal,Temporal paired trend,0,3,0,597,0.0,,0.005,
+12,cpu_only_spike,CPU threshold,3,0,57,540,1.0,0.05,0.0,True
+12,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+12,cpu_only_spike,Temporal paired trend,0,1,60,539,0.0,0.0,0.001851851851851852,False
+12,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+12,gradual_physical_drift,Multi-signal z-score,25,0,35,540,1.0,0.4166666666666667,0.0,True
+12,gradual_physical_drift,Temporal paired trend,35,0,25,540,1.0,0.5833333333333334,0.0,True
+12,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+12,multisignal_event,Multi-signal z-score,58,0,2,540,1.0,0.9666666666666667,0.0,True
+12,multisignal_event,Temporal paired trend,8,0,52,540,1.0,0.13333333333333333,0.0,True
+13,normal,CPU threshold,0,0,0,600,,,0.0,
+13,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+13,normal,Temporal paired trend,0,0,0,600,,,0.0,
+13,cpu_only_spike,CPU threshold,0,0,60,540,,0.0,0.0,False
+13,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+13,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+13,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+13,gradual_physical_drift,Multi-signal z-score,27,0,33,540,1.0,0.45,0.0,True
+13,gradual_physical_drift,Temporal paired trend,37,0,23,540,1.0,0.6166666666666667,0.0,True
+13,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+13,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+13,multisignal_event,Temporal paired trend,13,0,47,540,1.0,0.21666666666666667,0.0,True
+14,normal,CPU threshold,0,0,0,600,,,0.0,
+14,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+14,normal,Temporal paired trend,0,1,0,599,0.0,,0.0016666666666666668,
+14,cpu_only_spike,CPU threshold,54,0,6,540,1.0,0.9,0.0,True
+14,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+14,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+14,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+14,gradual_physical_drift,Multi-signal z-score,28,0,32,540,1.0,0.4666666666666667,0.0,True
+14,gradual_physical_drift,Temporal paired trend,32,0,28,540,1.0,0.5333333333333333,0.0,True
+14,multisignal_event,CPU threshold,8,0,52,540,1.0,0.13333333333333333,0.0,True
+14,multisignal_event,Multi-signal z-score,58,0,2,540,1.0,0.9666666666666667,0.0,True
+14,multisignal_event,Temporal paired trend,5,0,55,540,1.0,0.08333333333333333,0.0,True
+15,normal,CPU threshold,0,0,0,600,,,0.0,
+15,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+15,normal,Temporal paired trend,0,0,0,600,,,0.0,
+15,cpu_only_spike,CPU threshold,42,0,18,540,1.0,0.7,0.0,True
+15,cpu_only_spike,Multi-signal z-score,1,0,59,540,1.0,0.016666666666666666,0.0,True
+15,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+15,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+15,gradual_physical_drift,Multi-signal z-score,13,0,47,540,1.0,0.21666666666666667,0.0,True
+15,gradual_physical_drift,Temporal paired trend,4,0,56,540,1.0,0.06666666666666667,0.0,True
+15,multisignal_event,CPU threshold,8,0,52,540,1.0,0.13333333333333333,0.0,True
+15,multisignal_event,Multi-signal z-score,59,0,1,540,1.0,0.9833333333333333,0.0,True
+15,multisignal_event,Temporal paired trend,9,0,51,540,1.0,0.15,0.0,True
+16,normal,CPU threshold,0,0,0,600,,,0.0,
+16,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+16,normal,Temporal paired trend,0,0,0,600,,,0.0,
+16,cpu_only_spike,CPU threshold,7,0,53,540,1.0,0.11666666666666667,0.0,True
+16,cpu_only_spike,Multi-signal z-score,1,0,59,540,1.0,0.016666666666666666,0.0,True
+16,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+16,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+16,gradual_physical_drift,Multi-signal z-score,27,0,33,540,1.0,0.45,0.0,True
+16,gradual_physical_drift,Temporal paired trend,14,2,46,538,0.875,0.23333333333333334,0.003703703703703704,True
+16,multisignal_event,CPU threshold,1,0,59,540,1.0,0.016666666666666666,0.0,True
+16,multisignal_event,Multi-signal z-score,60,1,0,539,0.9836065573770492,1.0,0.001851851851851852,True
+16,multisignal_event,Temporal paired trend,5,0,55,540,1.0,0.08333333333333333,0.0,True
+17,normal,CPU threshold,0,0,0,600,,,0.0,
+17,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+17,normal,Temporal paired trend,0,0,0,600,,,0.0,
+17,cpu_only_spike,CPU threshold,23,0,37,540,1.0,0.38333333333333336,0.0,True
+17,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+17,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+17,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+17,gradual_physical_drift,Multi-signal z-score,35,0,25,540,1.0,0.5833333333333334,0.0,True
+17,gradual_physical_drift,Temporal paired trend,23,1,37,539,0.9583333333333334,0.38333333333333336,0.001851851851851852,True
+17,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+17,multisignal_event,Multi-signal z-score,56,0,4,540,1.0,0.9333333333333333,0.0,True
+17,multisignal_event,Temporal paired trend,6,0,54,540,1.0,0.1,0.0,True
+18,normal,CPU threshold,0,0,0,600,,,0.0,
+18,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+18,normal,Temporal paired trend,0,0,0,600,,,0.0,
+18,cpu_only_spike,CPU threshold,56,0,4,540,1.0,0.9333333333333333,0.0,True
+18,cpu_only_spike,Multi-signal z-score,1,1,59,539,0.5,0.016666666666666666,0.001851851851851852,True
+18,cpu_only_spike,Temporal paired trend,0,1,60,539,0.0,0.0,0.001851851851851852,False
+18,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+18,gradual_physical_drift,Multi-signal z-score,12,0,48,540,1.0,0.2,0.0,True
+18,gradual_physical_drift,Temporal paired trend,21,0,39,540,1.0,0.35,0.0,True
+18,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+18,multisignal_event,Multi-signal z-score,58,0,2,540,1.0,0.9666666666666667,0.0,True
+18,multisignal_event,Temporal paired trend,10,0,50,540,1.0,0.16666666666666666,0.0,True
+19,normal,CPU threshold,0,0,0,600,,,0.0,
+19,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+19,normal,Temporal paired trend,0,1,0,599,0.0,,0.0016666666666666668,
+19,cpu_only_spike,CPU threshold,0,0,60,540,,0.0,0.0,False
+19,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+19,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+19,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+19,gradual_physical_drift,Multi-signal z-score,28,0,32,540,1.0,0.4666666666666667,0.0,True
+19,gradual_physical_drift,Temporal paired trend,29,0,31,540,1.0,0.48333333333333334,0.0,True
+19,multisignal_event,CPU threshold,2,0,58,540,1.0,0.03333333333333333,0.0,True
+19,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+19,multisignal_event,Temporal paired trend,11,0,49,540,1.0,0.18333333333333332,0.0,True
+20,normal,CPU threshold,0,0,0,600,,,0.0,
+20,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+20,normal,Temporal paired trend,0,0,0,600,,,0.0,
+20,cpu_only_spike,CPU threshold,1,0,59,540,1.0,0.016666666666666666,0.0,True
+20,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+20,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+20,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+20,gradual_physical_drift,Multi-signal z-score,37,0,23,540,1.0,0.6166666666666667,0.0,True
+20,gradual_physical_drift,Temporal paired trend,44,3,16,537,0.9361702127659575,0.7333333333333333,0.005555555555555556,True
+20,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+20,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+20,multisignal_event,Temporal paired trend,4,0,56,540,1.0,0.06666666666666667,0.0,True
+21,normal,CPU threshold,0,0,0,600,,,0.0,
+21,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+21,normal,Temporal paired trend,0,0,0,600,,,0.0,
+21,cpu_only_spike,CPU threshold,55,0,5,540,1.0,0.9166666666666666,0.0,True
+21,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+21,cpu_only_spike,Temporal paired trend,0,3,60,537,0.0,0.0,0.005555555555555556,False
+21,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+21,gradual_physical_drift,Multi-signal z-score,23,0,37,540,1.0,0.38333333333333336,0.0,True
+21,gradual_physical_drift,Temporal paired trend,20,0,40,540,1.0,0.3333333333333333,0.0,True
+21,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+21,multisignal_event,Multi-signal z-score,56,0,4,540,1.0,0.9333333333333333,0.0,True
+21,multisignal_event,Temporal paired trend,3,0,57,540,1.0,0.05,0.0,True
+22,normal,CPU threshold,0,0,0,600,,,0.0,
+22,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+22,normal,Temporal paired trend,0,0,0,600,,,0.0,
+22,cpu_only_spike,CPU threshold,8,0,52,540,1.0,0.13333333333333333,0.0,True
+22,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+22,cpu_only_spike,Temporal paired trend,0,1,60,539,0.0,0.0,0.001851851851851852,False
+22,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+22,gradual_physical_drift,Multi-signal z-score,29,0,31,540,1.0,0.48333333333333334,0.0,True
+22,gradual_physical_drift,Temporal paired trend,24,0,36,540,1.0,0.4,0.0,True
+22,multisignal_event,CPU threshold,2,0,58,540,1.0,0.03333333333333333,0.0,True
+22,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+22,multisignal_event,Temporal paired trend,11,0,49,540,1.0,0.18333333333333332,0.0,True
+23,normal,CPU threshold,0,0,0,600,,,0.0,
+23,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+23,normal,Temporal paired trend,0,2,0,598,0.0,,0.0033333333333333335,
+23,cpu_only_spike,CPU threshold,51,0,9,540,1.0,0.85,0.0,True
+23,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+23,cpu_only_spike,Temporal paired trend,2,0,58,540,1.0,0.03333333333333333,0.0,True
+23,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+23,gradual_physical_drift,Multi-signal z-score,30,0,30,540,1.0,0.5,0.0,True
+23,gradual_physical_drift,Temporal paired trend,31,2,29,538,0.9393939393939394,0.5166666666666667,0.003703703703703704,True
+23,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+23,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+23,multisignal_event,Temporal paired trend,11,0,49,540,1.0,0.18333333333333332,0.0,True
+24,normal,CPU threshold,0,0,0,600,,,0.0,
+24,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+24,normal,Temporal paired trend,0,0,0,600,,,0.0,
+24,cpu_only_spike,CPU threshold,1,0,59,540,1.0,0.016666666666666666,0.0,True
+24,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+24,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+24,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+24,gradual_physical_drift,Multi-signal z-score,33,0,27,540,1.0,0.55,0.0,True
+24,gradual_physical_drift,Temporal paired trend,25,2,35,538,0.9259259259259259,0.4166666666666667,0.003703703703703704,True
+24,multisignal_event,CPU threshold,3,0,57,540,1.0,0.05,0.0,True
+24,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+24,multisignal_event,Temporal paired trend,6,0,54,540,1.0,0.1,0.0,True
+25,normal,CPU threshold,0,0,0,600,,,0.0,
+25,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+25,normal,Temporal paired trend,0,0,0,600,,,0.0,
+25,cpu_only_spike,CPU threshold,0,0,60,540,,0.0,0.0,False
+25,cpu_only_spike,Multi-signal z-score,1,0,59,540,1.0,0.016666666666666666,0.0,True
+25,cpu_only_spike,Temporal paired trend,0,1,60,539,0.0,0.0,0.001851851851851852,False
+25,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+25,gradual_physical_drift,Multi-signal z-score,34,0,26,540,1.0,0.5666666666666667,0.0,True
+25,gradual_physical_drift,Temporal paired trend,39,0,21,540,1.0,0.65,0.0,True
+25,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+25,multisignal_event,Multi-signal z-score,59,0,1,540,1.0,0.9833333333333333,0.0,True
+25,multisignal_event,Temporal paired trend,11,0,49,540,1.0,0.18333333333333332,0.0,True
+26,normal,CPU threshold,0,0,0,600,,,0.0,
+26,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+26,normal,Temporal paired trend,0,1,0,599,0.0,,0.0016666666666666668,
+26,cpu_only_spike,CPU threshold,0,0,60,540,,0.0,0.0,False
+26,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+26,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+26,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+26,gradual_physical_drift,Multi-signal z-score,38,0,22,540,1.0,0.6333333333333333,0.0,True
+26,gradual_physical_drift,Temporal paired trend,46,1,14,539,0.9787234042553191,0.7666666666666667,0.001851851851851852,True
+26,multisignal_event,CPU threshold,3,0,57,540,1.0,0.05,0.0,True
+26,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+26,multisignal_event,Temporal paired trend,7,2,53,538,0.7777777777777778,0.11666666666666667,0.003703703703703704,True
+27,normal,CPU threshold,0,0,0,600,,,0.0,
+27,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+27,normal,Temporal paired trend,0,0,0,600,,,0.0,
+27,cpu_only_spike,CPU threshold,45,0,15,540,1.0,0.75,0.0,True
+27,cpu_only_spike,Multi-signal z-score,1,0,59,540,1.0,0.016666666666666666,0.0,True
+27,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+27,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+27,gradual_physical_drift,Multi-signal z-score,27,0,33,540,1.0,0.45,0.0,True
+27,gradual_physical_drift,Temporal paired trend,33,1,27,539,0.9705882352941176,0.55,0.001851851851851852,True
+27,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+27,multisignal_event,Multi-signal z-score,54,0,6,540,1.0,0.9,0.0,True
+27,multisignal_event,Temporal paired trend,4,0,56,540,1.0,0.06666666666666667,0.0,True
+28,normal,CPU threshold,0,0,0,600,,,0.0,
+28,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+28,normal,Temporal paired trend,0,0,0,600,,,0.0,
+28,cpu_only_spike,CPU threshold,8,0,52,540,1.0,0.13333333333333333,0.0,True
+28,cpu_only_spike,Multi-signal z-score,1,0,59,540,1.0,0.016666666666666666,0.0,True
+28,cpu_only_spike,Temporal paired trend,0,1,60,539,0.0,0.0,0.001851851851851852,False
+28,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+28,gradual_physical_drift,Multi-signal z-score,32,0,28,540,1.0,0.5333333333333333,0.0,True
+28,gradual_physical_drift,Temporal paired trend,25,1,35,539,0.9615384615384616,0.4166666666666667,0.001851851851851852,True
+28,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+28,multisignal_event,Multi-signal z-score,60,0,0,540,1.0,1.0,0.0,True
+28,multisignal_event,Temporal paired trend,9,0,51,540,1.0,0.15,0.0,True
+29,normal,CPU threshold,0,0,0,600,,,0.0,
+29,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+29,normal,Temporal paired trend,0,0,0,600,,,0.0,
+29,cpu_only_spike,CPU threshold,9,0,51,540,1.0,0.15,0.0,True
+29,cpu_only_spike,Multi-signal z-score,0,0,60,540,,0.0,0.0,False
+29,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+29,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+29,gradual_physical_drift,Multi-signal z-score,14,1,46,539,0.9333333333333333,0.23333333333333334,0.001851851851851852,True
+29,gradual_physical_drift,Temporal paired trend,15,0,45,540,1.0,0.25,0.0,True
+29,multisignal_event,CPU threshold,1,0,59,540,1.0,0.016666666666666666,0.0,True
+29,multisignal_event,Multi-signal z-score,58,0,2,540,1.0,0.9666666666666667,0.0,True
+29,multisignal_event,Temporal paired trend,9,0,51,540,1.0,0.15,0.0,True
+30,normal,CPU threshold,0,0,0,600,,,0.0,
+30,normal,Multi-signal z-score,0,0,0,600,,,0.0,
+30,normal,Temporal paired trend,0,0,0,600,,,0.0,
+30,cpu_only_spike,CPU threshold,28,0,32,540,1.0,0.4666666666666667,0.0,True
+30,cpu_only_spike,Multi-signal z-score,1,0,59,540,1.0,0.016666666666666666,0.0,True
+30,cpu_only_spike,Temporal paired trend,0,0,60,540,,0.0,0.0,False
+30,gradual_physical_drift,CPU threshold,0,0,60,540,,0.0,0.0,False
+30,gradual_physical_drift,Multi-signal z-score,26,0,34,540,1.0,0.43333333333333335,0.0,True
+30,gradual_physical_drift,Temporal paired trend,29,0,31,540,1.0,0.48333333333333334,0.0,True
+30,multisignal_event,CPU threshold,0,0,60,540,,0.0,0.0,False
+30,multisignal_event,Multi-signal z-score,56,0,4,540,1.0,0.9333333333333333,0.0,True
+30,multisignal_event,Temporal paired trend,9,4,51,536,0.6923076923076923,0.15,0.007407407407407408,True

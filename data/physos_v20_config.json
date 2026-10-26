@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "source": "SIMULATED",
+  "n_samples": 600,
+  "event_interval": [
+    300,
+    360
+  ],
+  "window": 20,
+  "calibration_trials_per_scenario": 20,
+  "heldout_trials_per_scenario": 100,
+  "calibration_seed": 12000,
+  "heldout_seed": 82000,
+  "temperature_slope_threshold": 0.03,
+  "frequency_slope_threshold": -1.0,
+  "temperature_level_increase": 1.0,
+  "frequency_level_decrease": 50.0,
+  "persistence_required": 2,
+  "persistence_window": 3,
+  "scenarios": [
+    "normal",
+    "noisy_normal",
+    "temperature_only",
+    "frequency_only",
+    "strong_drift",
+    "moderate_drift",
+    "weak_drift",
+    "noisy_gradual_drift",
+    "sudden_change"
+  ],
+  "methods": [
+    "temperature_level",
+    "frequency_level",
+    "temperature_slope",
+    "frequency_slope",
+    "joint_slope",
+    "joint_slope_persistent_2of3"
+  ],
+  "threshold_policy": "Predeclared thresholds; do not change after inspecting held-out results."
+}

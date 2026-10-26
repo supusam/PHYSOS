@@ -1,0 +1,13 @@
+scenario,detector,TP,FP,FN,TN,recall,false_positive_rate
+gradual_drift,all_three,202,52,1598,16148,0.11222222222222222,0.0032098765432098763
+gradual_drift,correlation_only,261,2693,1539,13507,0.145,0.16623456790123456
+gradual_drift,frequency_only,1388,1913,412,14287,0.7711111111111111,0.11808641975308642
+gradual_drift,temperature_and_correlation,242,353,1558,15847,0.13444444444444445,0.021790123456790125
+gradual_drift,temperature_and_frequency,1348,243,452,15957,0.7488888888888889,0.015
+gradual_drift,temperature_only,1605,2270,195,13930,0.8916666666666667,0.14012345679012345
+normal,all_three,0,54,0,17946,,0.003
+normal,correlation_only,0,2484,0,15516,,0.138
+normal,frequency_only,0,2198,0,15802,,0.12211111111111111
+normal,temperature_and_correlation,0,383,0,17617,,0.021277777777777777
+normal,temperature_and_frequency,0,269,0,17731,,0.014944444444444444
+normal,temperature_only,0,2587,0,15413,,0.14372222222222222

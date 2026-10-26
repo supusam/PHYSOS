@@ -1,0 +1,35 @@
+{
+    "version": "PHYSOS v2.3",
+    "source": "SIMULATED",
+    "slope_window": 20,
+    "relationship_window": 40,
+    "persistence_window": 5,
+    "persistence_required": 3,
+    "relationship_threshold": 3.0,
+    "statistics": {
+        "rolling_correlation": {
+            "median": 0.003920553719314128,
+            "scale": 0.1705853093194723
+        },
+        "lag_corr_1": {
+            "median": -0.0008537338783706166,
+            "scale": 0.16820026480535646
+        },
+        "lag_corr_3": {
+            "median": -0.007495213051532574,
+            "scale": 0.15966747199550713
+        },
+        "lag_corr_5": {
+            "median": 0.00038553958555996733,
+            "scale": 0.16008611672533857
+        },
+        "rolling_covariance": {
+            "median": 0.0016423497844555482,
+            "scale": 0.09631373554559336
+        },
+        "slope_coupling": {
+            "median": 0.0,
+            "scale": 1e-09
+        }
+    }
+}

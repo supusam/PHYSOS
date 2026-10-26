@@ -1,0 +1,15 @@
+{
+    "experiment": "PHYSOS v2.3",
+    "description": "Temporal relationship engine",
+    "data_source": "SIMULATED",
+    "n_samples": 600,
+    "event_start": 300,
+    "event_end": 360,
+    "slope_window": 20,
+    "relationship_window": 40,
+    "calibration_trials": 100,
+    "test_trials": 200,
+    "calibration_seed": 70000,
+    "test_seed": 80000,
+    "relationship_threshold": 3.0
+}
